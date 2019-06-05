@@ -1,3 +1,5 @@
-def reverse_each_word(strings)
-    strings.collect { |string| string.reverse }
+def reverse_each_word(string)
+    array = string.split(" ")
+    
+    string.collect { |string| string.reverse }
 end
